@@ -1,0 +1,63 @@
+body {
+	background-color: powderblue;
+	font-family: verdana;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: white;
+	}
+}
+
+h1 {
+	color: green;
+}
+
+table, th, td {
+	text-align: left;
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+tr:nth-child(1) {
+	background-color: #D6FFFF;
+}
+
+#homelink {
+	background-color: orange;
+}
+
+a.topic {
+	color: blue;
+}
+
+:focus {
+	color: yellow;
+}
+
+tr:hover {
+	background-color: white;
+}
+
+.item, .key-item {
+	color: green;
+}
+
+.key-item {
+	border: 2px solid blue;
+}
+
+ul {
+	margin: 10px;
+	padding: 20px;
+	list-style: square;
+}
+
+ul li {
+	margin-right: 50px;
+}
+
+ul li:hover {
+	background-color: white;
+}

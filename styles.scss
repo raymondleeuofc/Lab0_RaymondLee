@@ -1,0 +1,73 @@
+// SCSS variables
+
+$hover-background-color: white;
+$list-style: square;
+
+body {
+  background-color: powderblue;
+  font-family: verdana;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+h1 {
+  color: green;
+}
+
+table, th, td {
+  text-align: left;
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tr:nth-child(1) {
+  background-color: #D6FFFF;
+}
+
+#homelink {
+  background-color: orange;
+}
+
+a.topic {
+  color: blue;
+}
+
+:focus {
+  color: yellow;
+}
+
+tr:hover {
+  background-color: $hover-background-color;
+}
+
+// SCSS inheritance
+
+.item {
+  color: green;
+}
+
+.key-item {
+  @extend .item;
+  border: 2px solid blue;
+}
+
+// SCSS nesting
+
+ul {
+    margin: 10px;
+    padding: 20px;
+    list-style: $list-style;
+    
+    li {
+      margin-right: 50px;
+      
+      &:hover {
+        background-color: $hover-background-color;
+      }
+   }
+}
