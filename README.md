@@ -1,5 +1,5 @@
 # ENGO551/651 - Lab 0 Assignment
-This project is to get more comfortable with HTML and CSS, applying these technology to sample content webpages. The sample content is a short introduction to Geomatics.
+The objective of this project is to get more comfortable with HTML and CSS, and applying them to sample content webpages. The sample content is a short introduction to Geomatics.
 
 > Click [Geomatics](index.html) to see the content pages.
 
@@ -17,7 +17,7 @@ This project is to get more comfortable with HTML and CSS, applying these techno
 
 ## Requirements met
 - 6 html files all linked to each other via hyperlinks.
-- most html files include unordered list, and geodesy.html contains table, index.html contains a image.
+- Most html files include unordered list, and geodesy.html contains table, index.html contains a image.
 - 1 stylesheet file styles.css generated from styles.scss file.
 - styles.css shows at least five different CSS properties, more than five different types of selectors, including selector using #id and .class selector.
 - styles.css defines a @media query to change background color for smaller screen. 
